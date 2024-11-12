@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+}
+header{
+    box-sizing: border-box;
+    border-bottom: 2px rgb(222, 219, 219) solid ;
+    padding: 40px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 550px;
+    margin-top: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+[alt="global"] {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.nav_btn{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border: none;
+    background-color: transparent !important;
+    
+}
+.nav_btn span {
+    color: rgb(66, 66, 66);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.nav_btn img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    height: 786px;
+    border: 1px rgba(222, 219, 219, 1) solid;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.marslogo-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image3 h4 {
+    color: rgba(240, 64, 15, 1);
+    font-size: 24px;
+}
+
+.wrapper h1 {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    color: rgba(14, 13, 93, 1);
+    padding-top: 100px;
+}
+
+.parrent {
+    background-color: rgba(245, 245, 245, 1);
+    width: 533px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.button1{
+    background-color: white;
+    font-size: 28px;
+    color: black;
+    width: 255px;
+    height: 54px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button2 {
+    color: black;
+    width: 255px;
+    height: 54px;
+    font-size: 28px;
+    border: none;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.input1 input{
+    width: 533px;
+    height: 70px;
+    border-color: rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgba(250, 250, 250, 1);
+    font-size: 24px;
+    padding-left: 35px;
+    margin-top: 40px;
+}
+
+
+.input2 input{
+    width: 533px;
+    height: 70px;
+    border-color: rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background-color: rgba(250, 250, 250, 1);
+    font-size: 24px;
+    padding-left: 35px;
+    margin-top: 40px;
+}
+
+.wrapper h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.endbutton {
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+}
+
+.endbutton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+    height: 67px;
+    background-color: rgba(246, 158, 134, 1);
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
